@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF8F0" /> <!-- Light pastel paper color -->
+        </shape>
+    </item>
+
+    <!-- Horizontal lines to simulate notebook paper -->
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/paper_lines" />
+    </item>
+</layer-list>

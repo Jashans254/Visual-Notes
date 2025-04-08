@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#BBDEFB" android:padding="20dp">
+    <SearchView android:id="@+id/searchView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:queryHint="Search notes..."/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/notesRecyclerView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:padding="8dp" android:clipToPadding="false"/>
+</LinearLayout>

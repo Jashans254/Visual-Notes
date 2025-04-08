@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:gravity="center" android:background="#BBDEFB">
+    <!--  Light blue background  -->
+    <Button android:id="@+id/btnCreateNote" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=" 📸 Create New Note" android:textSize="18sp" android:padding="16dp" android:background="#2196F3" android:textColor="#ffffff" android:layout_marginBottom="24dp"/>
+    <Button android:id="@+id/btnOpenNotes" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=" 📁 Open Notes" android:textSize="18sp" android:padding="16dp" android:background="#1976D2" android:textColor="#ffffff"/>
+</LinearLayout>

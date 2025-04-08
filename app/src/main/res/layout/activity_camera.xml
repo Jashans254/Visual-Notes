@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal" android:background="#BBDEFB">
+    <!--  Light Blue Background  -->
+    <ImageView android:id="@+id/imagePreview" android:layout_width="300dp" android:layout_height="300dp" android:scaleType="centerCrop" android:layout_marginBottom="24dp" android:background="#E3F2FD"/>
+    <!--  Soft Blue Background for Image Preview  -->
+    <Button android:id="@+id/btnCapture" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📸 Capture Photo" android:textColor="#FFFFFF" android:textSize="18sp" android:background="#2196F3" android:layout_marginBottom="16dp"/>
+    <Button android:id="@+id/btnAddMore" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="➕ Add More Pictures" android:textColor="#FFFFFF" android:textSize="18sp" android:background="#1976D2" android:layout_marginBottom="16dp"/>
+    <Button android:id="@+id/btnNext" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="➡️ Next" android:textColor="#FFFFFF" android:textSize="18sp" android:background="#1565C0"/>
+</LinearLayout>

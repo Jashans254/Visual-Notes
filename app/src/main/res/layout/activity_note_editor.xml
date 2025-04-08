@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#BBDEFB" android:padding="20dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <!--  Image previews  -->
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:scrollbars="none">
+            <LinearLayout android:id="@+id/imageContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="8dp" android:background="#E3F2FD"/>
+        </HorizontalScrollView>
+        <!--  Note input area styled like paper  -->
+        <EditText android:id="@+id/editNote" android:layout_width="match_parent" android:layout_height="200dp" android:hint="Write your note here..." android:gravity="top|start" android:padding="16dp" android:background="#FFFFFF" android:textColor="#333333" android:textSize="16sp" android:layout_marginBottom="24dp" android:inputType="textMultiLine" android:maxLines="10"/>
+        <!--  Buttons container  -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_marginTop="8dp" android:weightSum="2">
+            <Button android:id="@+id/btnSave" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp" android:text="💾 Save" android:textColor="#FFFFFF" android:textSize="16sp" android:background="#2196F3"/>
+            <Button android:id="@+id/btnDiscard" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="8dp" android:text="🗑️ Discard" android:textColor="#FFFFFF" android:textSize="16sp" android:background="#1976D2"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
