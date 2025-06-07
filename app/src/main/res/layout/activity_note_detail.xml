@@ -10,6 +10,6 @@
         <!--  Images will be dynamically added here  -->
         <LinearLayout android:id="@+id/detailImageContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="24dp"/>
         <!--  Save to Google Drive Button  -->
-        <Button android:id="@+id/saveToDriveButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save to Google Drive" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#2196F3" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:elevation="2dp"/>
+<!--        <Button android:id="@+id/saveToDriveButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save to Google Drive" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#2196F3" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:elevation="2dp"/>-->
     </LinearLayout>
 </ScrollView>
